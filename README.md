@@ -1,3 +1,3 @@
 # igbot
 
-Bot to comments pictures on instagram with #python and #selenium
+Bot to comment pictures on instagram with #python and #selenium
