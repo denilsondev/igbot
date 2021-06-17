@@ -1,0 +1,758 @@
+1623806358570	geckodriver	INFO	Listening on 127.0.0.1:60716
+1623807002311	geckodriver	INFO	Listening on 127.0.0.1:61102
+1623807252126	geckodriver	INFO	Listening on 127.0.0.1:61131
+1623807266781	geckodriver	INFO	Listening on 127.0.0.1:61146
+1623807273457	geckodriver	INFO	Listening on 127.0.0.1:61156
+1623807381114	geckodriver	INFO	Listening on 127.0.0.1:61267
+1623807673537	geckodriver	INFO	Listening on 127.0.0.1:61375
+1623888104299	geckodriver	INFO	Listening on 127.0.0.1:63092
+1623888945486	geckodriver	INFO	Listening on 127.0.0.1:63178
+1623889589413	geckodriver	INFO	Listening on 127.0.0.1:63273
+1623889590437	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileqORIj1"
+1623889591815	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileqORIj1/search.json.mozlz4", (void 0)))
+1623889594936	Marionette	INFO	Listening on port 63285
+1623889595058	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623890452049	geckodriver	INFO	Listening on 127.0.0.1:63462
+1623890453079	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile79BgTw"
+1623890453954	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile79BgTw/search.json.mozlz4", (void 0)))
+1623890457094	Marionette	INFO	Listening on port 63473
+1623890457184	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623890548645	geckodriver	INFO	Listening on 127.0.0.1:63553
+1623890549698	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilewQA3VY"
+1623890550519	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilewQA3VY/search.json.mozlz4", (void 0)))
+1623890553303	Marionette	INFO	Listening on port 63560
+1623890553368	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623890614558	Marionette	INFO	Stopped listening on port 63560
+1623890616089	Marionette	INFO	Stopped listening on port 63473
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623890617788	Marionette	INFO	Stopped listening on port 63285
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623891061353	geckodriver	INFO	Listening on 127.0.0.1:63702
+1623891062393	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileIRqbMB"
+1623891063305	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileIRqbMB/search.json.mozlz4", (void 0)))
+1623891066102	Marionette	INFO	Listening on port 63713
+1623891066152	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1623891174266	geckodriver	INFO	Listening on 127.0.0.1:63796
+1623891175311	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileM32xpi"
+1623891176121	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileM32xpi/search.json.mozlz4", (void 0)))
+1623891178943	Marionette	INFO	Listening on port 63807
+1623891179005	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623891193410	geckodriver	INFO	Listening on 127.0.0.1:63889
+1623891194466	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilejuoCQt"
+1623891195364	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilejuoCQt/search.json.mozlz4", (void 0)))
+1623891198702	Marionette	INFO	Listening on port 63900
+1623891198748	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1623891474801	geckodriver	INFO	Listening on 127.0.0.1:64029
+1623891475837	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileQ78nxO"
+1623891476779	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileQ78nxO/search.json.mozlz4", (void 0)))
+1623891480179	Marionette	INFO	Listening on port 64040
+1623891480211	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 299: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 299: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 299: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 299: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 299: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 299: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 299: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 299: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+1623891639849	geckodriver	INFO	Listening on 127.0.0.1:64167
+1623891640891	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilesttUzG"
+1623891641622	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilesttUzG/search.json.mozlz4", (void 0)))
+1623891644395	Marionette	INFO	Listening on port 64178
+1623891644441	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623891752382	geckodriver	INFO	Listening on 127.0.0.1:64284
+1623891753423	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile5RQ27k"
+1623891754410	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile5RQ27k/search.json.mozlz4", (void 0)))
+1623891756671	Marionette	INFO	Listening on port 64295
+1623891756760	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623892319704	Marionette	INFO	Stopped listening on port 63713
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623892321101	Marionette	INFO	Stopped listening on port 63807
+1623892322447	Marionette	INFO	Stopped listening on port 63900
+1623892323573	Marionette	INFO	Stopped listening on port 64040
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623892326581	Marionette	INFO	Stopped listening on port 64295
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623892329319	Marionette	INFO	Stopped listening on port 64178
+1623892730900	geckodriver	INFO	Listening on 127.0.0.1:64488
+1623892731970	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileuau6mk"
+1623892732684	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileuau6mk/search.json.mozlz4", (void 0)))
+1623892734986	Marionette	INFO	Listening on port 64499
+1623892735079	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://connect.facebook.net/en_US/sdk.js?hash=d01681924ea9fda8e6b450fd55c36cf2, line 175: NS_ERROR_NOT_INITIALIZED: 
+1623892810705	geckodriver	INFO	Listening on 127.0.0.1:64595
+1623892810740	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilezExgMv"
+1623892811460	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilezExgMv/search.json.mozlz4", (void 0)))
+1623892814630	Marionette	INFO	Listening on port 64604
+1623892814678	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623892837494	geckodriver	INFO	Listening on 127.0.0.1:64697
+1623892837525	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileGrYu45"
+1623892838294	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileGrYu45/search.json.mozlz4", (void 0)))
+1623892840937	Marionette	INFO	Listening on port 64706
+1623892840990	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623892848072	geckodriver	INFO	Listening on 127.0.0.1:64786
+1623892848110	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilejoxRzt"
+1623892848935	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilejoxRzt/search.json.mozlz4", (void 0)))
+1623892851821	Marionette	INFO	Listening on port 64795
+1623892851863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623892898818	Marionette	INFO	Stopped listening on port 64499
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623892901435	Marionette	INFO	Stopped listening on port 64604
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623892904283	Marionette	INFO	Stopped listening on port 64706
+1623892907539	Marionette	INFO	Stopped listening on port 64795
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623892909771	geckodriver	INFO	Listening on 127.0.0.1:64901
+1623892910797	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileHfYDX4"
+1623892911501	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileHfYDX4/search.json.mozlz4", (void 0)))
+1623892913857	Marionette	INFO	Listening on port 64912
+1623892913932	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623892954018	geckodriver	INFO	Listening on 127.0.0.1:65004
+1623892954075	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile4cJZeq"
+1623892954980	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile4cJZeq/search.json.mozlz4", (void 0)))
+1623892958653	Marionette	INFO	Listening on port 65013
+1623892958730	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.navigateTo@chrome://marionette/content/driver.js:947:3
+
+1623893237518	geckodriver	INFO	Listening on 127.0.0.1:65129
+1623893237551	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileIgPHpX"
+1623893238655	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileIgPHpX/search.json.mozlz4", (void 0)))
+1623893242372	Marionette	INFO	Listening on port 65138
+1623893242427	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623893614515	geckodriver	INFO	Listening on 127.0.0.1:65312
+1623893615553	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilepSFR5v"
+1623893616264	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilepSFR5v/search.json.mozlz4", (void 0)))
+1623893618884	Marionette	INFO	Listening on port 65319
+1623893618926	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623893672891	geckodriver	INFO	Listening on 127.0.0.1:65406
+1623893672915	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile4i6VpW"
+1623893673618	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile4i6VpW/search.json.mozlz4", (void 0)))
+1623893676423	Marionette	INFO	Listening on port 65411
+1623893676486	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/efeitomdc/, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/efeitomdc/, line 52: TypeError: window.__bufferedErrors is undefined
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript error: https://www.instagram.com/efeitomdc/, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/efeitomdc/, line 52: TypeError: window.__bufferedErrors is undefined
+1623893785271	geckodriver	INFO	Listening on 127.0.0.1:65534
+1623893786301	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile8sgz5I"
+1623893786965	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile8sgz5I/search.json.mozlz4", (void 0)))
+1623893789322	Marionette	INFO	Listening on port 49157
+1623893789397	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623893813349	geckodriver	INFO	Listening on 127.0.0.1:49237
+1623893813375	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofiledldwnr"
+1623893814161	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofiledldwnr/search.json.mozlz4", (void 0)))
+1623893817255	Marionette	INFO	Listening on port 49242
+1623893817380	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 20571, IPC I/O Child] WARNING: pipe error: Socket is not connected: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:723
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623893834816	geckodriver	INFO	Listening on 127.0.0.1:49339
+1623893834845	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileqoVLWr"
+1623893835985	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileqoVLWr/search.json.mozlz4", (void 0)))
+1623893838478	Marionette	INFO	Listening on port 49344
+1623893838613	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623893966554	geckodriver	INFO	Listening on 127.0.0.1:49460
+1623893967589	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilepH7c4c"
+1623893968360	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilepH7c4c/search.json.mozlz4", (void 0)))
+1623893972076	Marionette	INFO	Listening on port 49467
+1623893972176	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623893995694	Marionette	INFO	Stopped listening on port 64912
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623893996640	Marionette	INFO	Stopped listening on port 65013
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623893997857	Marionette	INFO	Stopped listening on port 65138
+1623893998925	Marionette	INFO	Stopped listening on port 65411
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623894002176	Marionette	INFO	Stopped listening on port 49157
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1623894003961	Marionette	INFO	Stopped listening on port 49344
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623894006047	Marionette	INFO	Stopped listening on port 49467
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1623894007454	Marionette	INFO	Stopped listening on port 49242
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623894178367	geckodriver	INFO	Listening on 127.0.0.1:49584
+1623894179408	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileVXnfao"
+1623894180064	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileVXnfao/search.json.mozlz4", (void 0)))
+1623894182399	Marionette	INFO	Listening on port 49591
+1623894182524	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623894221976	Marionette	INFO	Stopped listening on port 49591
+1623894224591	Marionette	INFO	Stopped listening on port 65319
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623894227641	geckodriver	INFO	Listening on 127.0.0.1:49678
+1623894227658	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilekoenzh"
+1623894228411	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilekoenzh/search.json.mozlz4", (void 0)))
+1623894230613	Marionette	INFO	Listening on port 49683
+1623894230688	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/efeitomdc/, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/efeitomdc/, line 52: TypeError: window.__bufferedErrors is undefined
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript error: https://www.instagram.com/efeitomdc/, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/efeitomdc/, line 52: TypeError: window.__bufferedErrors is undefined
+1623895098511	geckodriver	INFO	Listening on 127.0.0.1:49874
+1623895098532	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileaPszVL"
+1623895099205	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileaPszVL/search.json.mozlz4", (void 0)))
+1623895101492	Marionette	INFO	Listening on port 49879
+1623895101569	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623895112593	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1623940464949	Marionette	INFO	Stopped listening on port 49683
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623940468508	Marionette	INFO	Stopped listening on port 49879
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623965275620	geckodriver	INFO	Listening on 127.0.0.1:51053
+1623965276658	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilergOMiX"
+1623965278767	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilergOMiX/search.json.mozlz4", (void 0)))
+1623965281713	Marionette	INFO	Listening on port 51060
+1623965281820	Marionette	WARN	TLS certificate errors will be ignored for this session
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/34d7dcf81274.js, line 220: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/34d7dcf81274.js, line 220: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/34d7dcf81274.js, line 220: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/34d7dcf81274.js, line 220: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/34d7dcf81274.js, line 220: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/34d7dcf81274.js, line 220: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/34d7dcf81274.js, line 220: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/34d7dcf81274.js, line 220: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/34d7dcf81274.js, line 220: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/34d7dcf81274.js, line 220: NS_ERROR_NOT_INITIALIZED: 
+1623965364621	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623965982252	geckodriver	INFO	Listening on 127.0.0.1:51347
+1623965983281	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileilF4LS"
+1623965984141	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileilF4LS/search.json.mozlz4", (void 0)))
+1623965986699	Marionette	INFO	Listening on port 51354
+1623965986786	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623966050393	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.navigateTo@chrome://marionette/content/driver.js:947:3
+
+1623966517969	Marionette	INFO	Stopped listening on port 51060
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623966519379	Marionette	INFO	Stopped listening on port 51354
+1623966521715	geckodriver	INFO	Listening on 127.0.0.1:51498
+1623966522758	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilemrnsjT"
+1623966523517	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilemrnsjT/search.json.mozlz4", (void 0)))
+1623966526029	Marionette	INFO	Listening on port 51505
+1623966526076	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623966536333	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1623966598840	Marionette	INFO	Stopped listening on port 51505
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623966600017	geckodriver	INFO	Listening on 127.0.0.1:51600
+1623966600032	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile0Zx7dT"
+1623966600672	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile0Zx7dT/search.json.mozlz4", (void 0)))
+1623966603115	Marionette	INFO	Listening on port 51605
+1623966603167	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623966863933	geckodriver	INFO	Listening on 127.0.0.1:52274
+1623966864957	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileYDTN28"
+1623966866032	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileYDTN28/search.json.mozlz4", (void 0)))
+1623966869231	Marionette	INFO	Listening on port 52285
+1623966869315	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623966879963	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1623966924292	geckodriver	INFO	Listening on 127.0.0.1:52625
+1623966925325	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofiletER1kS"
+1623966926331	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofiletER1kS/search.json.mozlz4", (void 0)))
+1623966929630	Marionette	INFO	Listening on port 52636
+1623966929694	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623966940478	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1623967216556	geckodriver	INFO	Listening on 127.0.0.1:53947
+1623967217586	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilexboaPY"
+1623967218405	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilexboaPY/search.json.mozlz4", (void 0)))
+1623967221293	Marionette	INFO	Listening on port 53958
+1623967221388	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623967231810	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1623967394355	geckodriver	INFO	Listening on 127.0.0.1:54794
+1623967395394	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileUUcsuW"
+1623967396321	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileUUcsuW/search.json.mozlz4", (void 0)))
+1623967398998	Marionette	INFO	Listening on port 54805
+1623967399075	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623967479395	geckodriver	INFO	Listening on 127.0.0.1:55239
+1623967479418	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilekwFlYQ"
+1623967480415	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofilekwFlYQ/search.json.mozlz4", (void 0)))
+1623967483904	Marionette	INFO	Listening on port 55244
+1623967484036	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+1623967505546	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623967555677	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623967605649	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1623967740880	geckodriver	INFO	Listening on 127.0.0.1:56412
+1623967741925	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileXc5zNL"
+1623967742897	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileXc5zNL/search.json.mozlz4", (void 0)))
+1623967745792	Marionette	INFO	Listening on port 56424
+1623967745824	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+1623967766759	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623967809687	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623967858863	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623967909904	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623967952644	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968005526	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968047450	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968095256	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968143827	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968191660	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968243491	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968293359	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968337164	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968387100	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968433078	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968473445	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968479181	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968483228	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1043"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1043:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:620:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:729:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1043, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1142:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1367:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1090:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:623:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:729:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1142, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1142))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1043"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1043:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:620:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:729:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1043, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1142:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1367:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1090:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:623:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:729:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1142, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1142))
+1623968584522	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968590275	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623968594026	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1043"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1043:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:620:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:729:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1043, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1142:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1367:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1090:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:623:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:729:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1142, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1142))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1043"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1043:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:620:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:729:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1043, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: undefined has no properties
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1142:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1367:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1090:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:623:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:729:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1142, column: 1
+console.error: (new TypeError("undefined has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 1142))
+1623971064569	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/b9965258c546.js, line 44: OZ_SOURCE_BUFFER: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.instagram.com/static/bundles/es6/oz-player.main.js/64be972c90ed.js, line 33: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 299: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 299: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 299: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 299: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+1623971526234	Marionette	INFO	Stopped listening on port 51605
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623971527855	Marionette	INFO	Stopped listening on port 52285
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623971529293	Marionette	INFO	Stopped listening on port 52636
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623971530940	Marionette	INFO	Stopped listening on port 53958
+1623971532041	Marionette	INFO	Stopped listening on port 54805
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623971533274	Marionette	INFO	Stopped listening on port 55244
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623971534625	Marionette	INFO	Stopped listening on port 56424
+1623971594698	geckodriver	INFO	Listening on 127.0.0.1:57129
+1623971595739	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileYX4qHH"
+1623971596751	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofileYX4qHH/search.json.mozlz4", (void 0)))
+1623971599106	Marionette	INFO	Listening on port 57136
+1623971599188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623971609275	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1623971729103	geckodriver	INFO	Listening on 127.0.0.1:57226
+1623971729124	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile0KUEy9"
+1623971729743	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s4/xw8f9qns2b70jx81rtkk9rv00000gn/T/rust_mozprofile0KUEy9/search.json.mozlz4", (void 0)))
+1623971732094	Marionette	INFO	Listening on port 57231
+1623971732173	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623971742304	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1623971752584	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623971776551	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623971801598	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623971827360	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623971855059	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623971883007	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623971910369	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623971937759	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623971967613	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623971997670	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623972022767	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623972054522	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623972085590	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623972110399	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623972137471	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623972165504	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623972196027	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623972223793	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1623972249943	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript error: https://www.instagram.com/, line 56: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/, line 56: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/b9965258c546.js, line 44: OZ_SOURCE_BUFFER: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.instagram.com/static/bundles/es6/oz-player.main.js/64be972c90ed.js, line 33: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/b9965258c546.js, line 44: OZ_SOURCE_BUFFER: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.instagram.com/static/bundles/es6/oz-player.main.js/64be972c90ed.js, line 33: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1623972548782	Marionette	INFO	Stopped listening on port 57231
+1623972550319	Marionette	INFO	Stopped listening on port 57136
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
